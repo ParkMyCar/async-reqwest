@@ -12,3 +12,5 @@ Timing the blocking version vs the async version while connected to a 4G hotspot
 |3|0.767|0.326|
 |4|1.038|0.293|
 |5|1.110|0.451|
+---
+Note: This should not be taken as an example of best practices with using Futures or the async/.await syntax.
