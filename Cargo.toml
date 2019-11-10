@@ -1,0 +1,13 @@
+[package]
+name = "async-reqwest"
+version = "0.1.0"
+authors = ["Parker Timmerman <parker@parkertimmerman.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.0"
+futures = "0.3.1"
+reqwest = { version = "0.10.0-alpha.1", features = ["blocking"] }
+tokio = "0.2.0-alpha.6"
